@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #383838;
+	background: url(../images/body.jpg) repeat;
+}
+h1,h3,h4,.navbar .nav>li>a {
+	font-family: 'Droid Arabic Kufi', serif;
+	text-shadow: 1px 1px #8f8f8f;
+}
+
+h1{ font-size: 30px; }
+h3{ font-size: 22px; }
+h4{ font-size: 18px; }
+
+.navbar-fixed-top {
+	border: none;
+	box-shadow: none;
+	border-radius: none;
+	border-bottom: 4px solid #72a8c7;
+	background: #4c7e9b; /* Old browsers */
+	background: linear-gradient(top,  #4c7e9b 0%,#3f6c86 100%); 
+}
+
+.navbar .nav>li>a{
+	text-shadow: 1px 1px #8f8f8f;
+	color: #dce7ef;
+	/*  padding: 25px 40px;
+	width: 60%;*/
+	text-align: center;
+	transition: background 0.5s ease;
+}
+
+.navbar .nav>li>a:hover{
+	color: #1c3747;
+	background: #72a8c7;
+}
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus{
+	color: #1c3747;
+	background: #72a8c7;
+	box-shadow: none;
+}
+
+.home{
+	background: rgba(255,255,255,0.4); border: 5px solid #fff;
+ padding: 20px 10px; margin: 15px 0 20px;
+}
+
+.home h1{ margin-bottom: 30px; }
+
+.down{
+	background: #3e6b85;
+	color: #dce7ef;
+	border-top: 4px solid #72a8c7;
+	border-bottom: 4px solid #72a8c7;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+
+.down h4{
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.down a{ color: #a9bdcb; }
+
+.down a:hover{ text-decoration: underline; }
+
+footer{
+	background: #1c3747;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+footer a{ color: #dce7ef; }
+footer a:hover{ text-decoration: underline; }
+
+@media (max-width: 1200px){
+	.home{ padding: 20px 5px; }
+	
+}
+
+@media (max-width: 767px){
+	.down{
+		padding-right: 10px;padding-left: 10px;
+		
+	}
+
+	footer a{ padding-right: 10px; }
+}
+
+@media (max-width: 480px){
+	.slideshow{ display: none; }
+}
+
+
+
+/* internal-trips*/
+
+.content{
+	position: relative;
+	margin-top: 120px;
+	padding-bottom: 20px;
+}
+
+.content p{ margin-top: 30px; }
+
+.content img{
+	position: absolute;
+	left: 5px;
+	top: -70px;
+	border: 5px solid #c5d2db; 
+}
+
+
+@media (max-width: 1000px){
+	
+	.content h1{ font-size:24px }
+}
+
+@media (max-width: 750px){
+	.content img{ display: none; }
+	.content h1{ font-size:16px }
+}
+
+.policy{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.policy button{
+	padding: 10px; font-size:36px; font-family:'Droid Arabic Kufi';
+}
+
+
+
+
+
+
+/*contact page*/
+.contact{ margin-top: 50px; }
+label,input,button,select,textarea{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+label{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.submit{ display: block; }
+
+
+label{
+	font-family: 'Droid Arabic Kufi', serif;
+	text-shadow: 1px 1px #8f8f8f;
+}
